@@ -1,0 +1,22 @@
+{
+  "name": "junior_dev_project",
+  "version": "1.0.0",
+  "description": "website for junior developers",
+  "main": "index.js",
+  "scripts": {
+    "test": "run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cassul/junior_dev_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cassul/junior_dev_project/issues"
+  },
+  "homepage": "https://github.com/Cassul/junior_dev_project#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
