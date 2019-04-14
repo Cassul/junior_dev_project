@@ -15,6 +15,6 @@ app.set('view engine', 'ejs')
  
 app.use('/', routes)
  
-app.listen(7777, () => {
+app.listen(process.env.PORT || 7777, () => {
     console.log("Server is running at localhost:7777")
 })
