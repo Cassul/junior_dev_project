@@ -4,7 +4,8 @@
   "description": "website for junior developers",
   "main": "app.js",
   "scripts": {
-    "test": "run test"
+    "test": "run test",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
