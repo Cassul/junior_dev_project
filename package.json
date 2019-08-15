@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Cassul/junior_dev_project#readme",
   "dependencies": {
     "ejs": "^2.6.1",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "mongodb": "^3.2.3"
   }
 }
