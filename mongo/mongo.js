@@ -1,7 +1,8 @@
 const MongoClient = require("mongodb").MongoClient;
 const dbName = "jdp_users";
+const config = require("../env.json");
 
-const localMongoAddress = "mongodb://localhost:27017/junior_dev_project";
+const localMongoAddress = config.connectionString;
 const herokuMongoAddress = process.env.MONGODB_URI;
 let mongoAddress;
 

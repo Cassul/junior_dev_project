@@ -1,7 +1,7 @@
 const config = require("env.json");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcryptjs");
-const db = require("_helpers/db");
+const db = require("../mongo_service");
 const User = db.User;
 
 module.exports = {
