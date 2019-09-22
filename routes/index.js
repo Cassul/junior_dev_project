@@ -4,13 +4,13 @@ const userService = require("../mongo/users/user.service");
 
 // routes
 
-router.post("/authenticate", authenticate);
-router.post("/register", register);
-router.get("/", getAll);
-router.get("/current", getCurrent);
-router.get("/:id", getById);
-router.put("/:id", update);
-router.delete("/:id", _delete);
+router.post("/users/authenticate", authenticate);
+router.post("/users/register", register);
+router.get("/users/", getAll);
+router.get("/users/current", getCurrent);
+router.get("/users/:id", getById);
+router.put("/users/:id", update);
+router.delete("/users/:id", _delete);
 
 function authenticate(req, res, next) {
   userService
