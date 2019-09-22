@@ -1,4 +1,4 @@
-const config = require("env.json");
+const config = require("../../env.json");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcryptjs");
 const db = require("../mongo_service");

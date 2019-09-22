@@ -1,5 +1,5 @@
 const expressJwt = require("express-jwt");
-const config = require("../env.json");
+const config = require("../env");
 const userService = require("../mongo/users/user.service");
 
 module.exports = jwt;
