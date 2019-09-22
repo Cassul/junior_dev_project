@@ -1,7 +1,7 @@
 const express = require("express");
 const path = require("path");
 const routes = require("./routes");
-const MongoClient = require("./mongo");
+const MongoClient = require("./mongo/mongo");
 
 const app = express();
 // Set the default views directory to html folder
