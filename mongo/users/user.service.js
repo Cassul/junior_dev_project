@@ -1,9 +1,8 @@
-const config = require("../../env.json");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcryptjs");
 const db = require("../mongo_service");
 const User = db.User;
-const secret = process.env.JWT_SECRET || config.secret;
+const secret = process.env.JWT_SECRET || require("../../env").secret;
 
 module.exports = {
   authenticate,

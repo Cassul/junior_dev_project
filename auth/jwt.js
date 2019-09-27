@@ -1,11 +1,10 @@
 const expressJwt = require("express-jwt");
-const config = require("../env");
 const userService = require("../mongo/users/user.service");
 
 module.exports = jwt;
 
 function jwt() {
-  const secret = process.env.JWT_SECRET || config.secret;
+  const secret = process.env.JWT_SECRET || require("../env").secret;
   return expressJwt({ secret, isRevoked }).unless({
     path: [
       // public routes that don't require authentication
